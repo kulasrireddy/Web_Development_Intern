@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Clean Modern Webpage</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 30px;
+
+        font-family: Arial, sans-serif;
+
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+      }
+
+      .card {
+        width: 90%;
+        max-width: 900px;
+
+        background: white;
+
+        padding: 60px;
+
+        border-radius: 25px;
+
+        text-align: center;
+
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+
+        transition: 0.4s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-8px);
+      }
+
+      .top-text {
+        color: #0077b6;
+
+        font-size: 18px;
+
+        letter-spacing: 2px;
+
+        margin-bottom: 20px;
+
+        font-weight: bold;
+      }
+
+      h1 {
+        color: #222;
+
+        font-size: 60px;
+
+        font-family: Georgia, serif;
+
+        margin-bottom: 30px;
+
+        text-shadow: 2px 2px 5px lightgray;
+      }
+
+      p {
+        color: #444;
+
+        font-size: 22px;
+
+        line-height: 1.8;
+
+        font-family: Verdana, sans-serif;
+
+        margin-bottom: 35px;
+      }
+
+      img {
+        width: 280px;
+
+        border-radius: 20px;
+
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+
+        transition: 0.4s ease;
+      }
+
+      img:hover {
+        transform: scale(1.05);
+      }
+
+      a {
+        display: inline-block;
+
+        margin-top: 30px;
+
+        text-decoration: none;
+
+        color: #0077b6;
+
+        font-size: 24px;
+
+        font-weight: bold;
+
+        transition: 0.3s ease;
+      }
+
+      a:hover {
+        color: #023e8a;
+
+        transform: scale(1.05);
+      }
+
+      button {
+        margin-top: 40px;
+
+        padding: 15px 35px;
+
+        background: #007bff;
+
+        color: white;
+
+        border: none;
+
+        border-radius: 12px;
+
+        cursor: pointer;
+
+        font-size: 18px;
+
+        font-weight: bold;
+
+        transition: 0.3s ease;
+
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      button:hover {
+        background: #0056b3;
+
+        transform: scale(1.08);
+      }
+
+      .footer {
+        margin-top: 35px;
+
+        color: gray;
+
+        font-size: 17px;
+
+        letter-spacing: 1px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="top-text">✨ MODERN WEB DESIGN ✨</div>
+
+      <h1>Simple Webpage</h1>
+
+      <p>
+        Google is one of the world’s leading technology companies, providing
+        innovative services such as Search, Gmail, Google Maps, YouTube,
+        Android, and Cloud solutions. This webpage demonstrates modern HTML,
+        CSS, and JavaScript concepts including responsive layouts, animations,
+        hover effects, gradients, and professional UI design.
+      </p>
+
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+        alt="Google Logo"
+      />
+
+      <br />
+
+      <a href="https://www.google.com" target="_blank"> Visit Google </a>
+
+      <br />
+
+      <button onclick="showMessage()">Explore More</button>
+
+      <div class="footer">Created by Deepika StudentR😊</div>
+    </div>
+
+    <script>
+      function showMessage() {
+        alert("Welcome to My First Modern Webpage!");
+      }
+    </script>
+  </body>
+</html>
