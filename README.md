@@ -32,14 +32,6 @@ This project demonstrates how to create a modern and responsive webpage with sty
 
 ---
 
-# 📂 Project Structure
-
-`' id="axvjlwm"
-project-folder
-│
-├── index.html
-└── README.md
-
 # Task 2 - Responsive Portfolio Website with Contact Form and To-Do List
 
 ## Overview
