@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* Navbar */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 60px;
+
+    background:#111827;
+
+    position:sticky;
+    top:0;
+
+    z-index:100;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.nav-links a:hover{
+    color:#38bdf8;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    color:#cbd5e1;
+}
+
+.hero button{
+    margin-top:25px;
+}
+
+/* Buttons */
+
+button{
+    background:#3b82f6;
+    color:white;
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+    background:#2563eb;
+}
+
+/* Section */
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+section{
+    padding:80px 10%;
+}
+
+/* Grid */
+
+.grid-container{
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card i{
+    font-size:50px;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+/* Todo */
+
+.todo-container{
+    max-width:700px;
+    margin:auto;
+}
+
+.todo-container input{
+    width:70%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+}
+
+.todo-container button{
+    margin-left:10px;
+}
+
+#taskList{
+    margin-top:20px;
+}
+
+#taskList li{
+    background:#1e293b;
+
+    margin:10px 0;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+/* Contact */
+
+.contact-container{
+    max-width:700px;
+    margin:auto;
+}
+
+form{
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:15px;
+}
+
+form input,
+form textarea{
+    width:100%;
+
+    padding:12px;
+
+    margin:12px 0;
+
+    border:none;
+
+    border-radius:8px;
+}
+
+#error{
+    color:#ef4444;
+    margin-top:10px;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+
+    padding:30px;
+
+    background:#111827;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .hero h1{
+        font-size:40px;
+    }
+
+    .grid-container{
+        grid-template-columns:1fr;
+    }
+
+    .todo-container input{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .todo-container button{
+        margin-left:0;
+    }
+}

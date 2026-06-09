@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kulasri Reddy | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav>
+      <div class="logo">Portfolio</div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#todo">To-Do</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section id="home" class="hero">
+      <h1>Hi, I'm Kulasri Durga Deepika Bora</h1>
+
+      <p>Frontend Developer | MERN Stack Learner</p>
+
+      <a href="#contact">
+        <button>Contact Me</button>
+      </a>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="grid-container">
+        <div class="card">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h3>Responsive Design</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-table-cells"></i>
+          <h3>CSS Grid</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-layer-group"></i>
+          <h3>Flexbox</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- To Do List -->
+
+    <section id="todo">
+      <h2 class="section-title">To-Do List</h2>
+
+      <div class="todo-container">
+        <input type="text" id="taskInput" placeholder="Enter a task" />
+
+        <button onclick="addTask()">Add Task</button>
+
+        <ul id="taskList"></ul>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+
+    <section id="contact">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="contact-container">
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" />
+
+          <input type="email" id="email" placeholder="Your Email" />
+
+          <textarea id="message" rows="6" placeholder="Your Message"></textarea>
+
+          <button type="submit">Send Message</button>
+
+          <p id="error"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <h3>Kulasri Bora</h3>
+
+      <p>Frontend Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
