@@ -1,7 +1,7 @@
 # Web_Development_Intern
 # Task 1 - Simple Webpage using HTML, CSS & JavaScript
 
-## 📌 Objective
+##  Objective
 The objective of this task is to learn and apply the foundational concepts of:
 
 - HTML
@@ -12,7 +12,7 @@ This project demonstrates how to create a modern and responsive webpage with sty
 
 ---
 
-# 🚀 Features
+#  Features
 
 ✅ Responsive Webpage Design  
 ✅ Modern Gradient Background  
@@ -24,7 +24,7 @@ This project demonstrates how to create a modern and responsive webpage with sty
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 - HTML5
 - CSS3
@@ -104,4 +104,98 @@ Through this project, I gained hands-on experience in:
 * Local Storage for To-Do Tasks
 * Smooth Animations and Transitions
 * Backend Integration for Contact Form Submission.
+
+# Task3 -- Interactive Learning Hub
+
+An interactive and responsive web application developed as part of my internship at ApexPlanet Software Pvt Ltd.
+
+## Project Overview
+
+Interactive Learning Hub is a modern frontend project that combines multiple JavaScript concepts into a single application. It provides users with an engaging learning experience through quizzes, image carousels, dark mode, and motivational quotes.
+
+##  Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- JSON
+- Local Storage
+- Fetch API
+
+## Features
+
+### Modern Responsive UI
+- Fully responsive design
+- Mobile-friendly layout
+- Smooth animations
+- Glassmorphism cards
+
+### Dark Mode
+- Toggle between Light and Dark themes
+- Theme preference saved using Local Storage
+
+### Image Carousel
+- Previous and Next navigation buttons
+- Automatic image sliding
+- Interactive image showcase
+
+### Interactive Quiz App
+- Multiple-choice questions
+- Score calculation
+- Progress bar
+- Countdown timer
+- Quiz completion summary
+
+### Motivation Corner
+- Quotes loaded from JSON data
+- Random quote generation
+- Dynamic content rendering
+
+### Local Storage
+- Saves user preferences
+- Stores quiz score
+- Maintains theme settings
+
+##  Project Structure
+
+```text
+project/
+│
+├── index.html
+├── style.css
+├── script.js
+├── quotes.json
+│
+└── images/
+    ├── slide1.jpg
+    ├── slide2.jpg
+    └── slide3.jpg
+```
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- DOM Manipulation
+- Event Handling
+- Responsive Web Design
+- JavaScript Functions
+- Async Programming
+- Fetch API
+- Local Storage
+- UI/UX Development
+
+## Internship
+
+This project was developed during my internship at **ApexPlanet Software Pvt Ltd**.
+
+## Author
+
+**Kulasri Bora**
+
+LinkedIn: https://www.linkedin.com/posts/kulasri-durga-deepika_webdevelopment-html-css-ugcPost-7472207398204534784-vR0H/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEO7unMB8zgiFK9paBN6JdIOXbsRYaAQjuA
+
+## License
+
+This project is developed for learning and educational purposes.
 
