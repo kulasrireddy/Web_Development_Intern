@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Learning Hub</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+      <div class="logo">Learning Hub</div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+
+        <li>
+          <a href="#carousel">Carousel</a>
+        </li>
+
+        <li>
+          <a href="#quiz">Quiz</a>
+        </li>
+
+        <li>
+          <a href="#quotes">Quotes</a>
+        </li>
+      </ul>
+
+      <button id="themeBtn">🌙</button>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+      <h1>Interactive Learning Hub</h1>
+
+      <p>Learn HTML, CSS and JavaScript through interactive components.</p>
+
+      <a href="#quiz" class="hero-btn"> Start Learning </a>
+    </section>
+
+    <!-- ================= IMAGE CAROUSEL ================= -->
+
+    <section id="carousel" class="carousel-section">
+      <h2>Image Carousel</h2>
+
+      <div class="slider">
+        <button id="prevBtn" class="slider-btn">❮</button>
+
+        <img id="slide" src="images/slide1.jpg" alt="carousel image" />
+
+        <button id="nextBtn" class="slider-btn">❯</button>
+      </div>
+
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <!-- ================= QUIZ SECTION ================= -->
+
+    <section id="quiz" class="quiz-section">
+      <h2>Web Development Quiz</h2>
+
+      <div class="quiz-container">
+        <div class="progress">
+          <div id="progressBar"></div>
+        </div>
+
+        <div class="timer">
+          Time Left:
+          <span id="timer"> 15 </span>
+        </div>
+
+        <h3 id="question">Question appears here</h3>
+
+        <div id="options"></div>
+
+        <button id="nextQuestion">Next Question</button>
+
+        <h3 id="score"></h3>
+      </div>
+    </section>
+
+    <!-- ================= QUOTES API ================= -->
+
+    <section id="quotes" class="quote-section">
+      <h2>Motivation Corner</h2>
+
+      <div class="quote-card">
+        <p id="quoteText">Click below to get a quote.</p>
+
+        <button id="quoteBtn">Get Quote</button>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES SECTION ================= -->
+
+    <section class="features">
+      <h2>Features Included</h2>
+
+      <div class="feature-grid">
+        <div class="card">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h3>Responsive Design</h3>
+          <p>Works on all devices.</p>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-image"></i>
+          <h3>Image Carousel</h3>
+          <p>Interactive image slider.</p>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-question"></i>
+          <h3>Quiz App</h3>
+          <p>Test your Web Development skills.</p>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-cloud"></i>
+          <h3>API Integration</h3>
+          <p>Fetch live data dynamically.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <h3>Interactive Learning Hub</h3>
+
+      <p>Built using HTML, CSS & JavaScript</p>
+
+      <div class="social-icons">
+        <i class="fa-brands fa-github"></i>
+
+        <i class="fa-brands fa-linkedin"></i>
+
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+
+      <p>Kulasri Bora© 2026 All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
