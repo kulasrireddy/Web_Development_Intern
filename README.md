@@ -185,17 +185,47 @@ Through this project, I gained practical experience in:
 - Local Storage
 - UI/UX Development
 
-## Internship
+# 🌐 Professional Portfolio Dashboard
 
-This project was developed during my internship at **ApexPlanet Software Pvt Ltd**.
+## 📌 Task 4 – Apex Software Planet Pvt. Ltd.
 
-## Author
+This project was developed as **Task 4** during my **Web Development Internship** at **Apex Software Planet Pvt. Ltd.**
 
-**Kulasri Bora**
+### 🎯 Objective
 
-LinkedIn: https://www.linkedin.com/posts/kulasri-durga-deepika_webdevelopment-html-css-ugcPost-7472207398204534784-vR0H/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEO7unMB8zgiFK9paBN6JdIOXbsRYaAQjuA
+Combine **HTML, CSS, and JavaScript** to build a fully functional, responsive, and interactive web application.
 
-## License
+### 📋 Project Tasks
 
-This project is developed for learning and educational purposes.
+This project includes the following requirements:
+
+- ✅ Professional Portfolio Website
+- ✅ About Section
+- ✅ Skills Section
+- ✅ Projects Section
+- ✅ Contact Section
+- ✅ Responsive Design
+- ✅ Dark & Light Mode Toggle
+- ✅ To-Do List with Local Storage
+- ✅ Product Listing Page
+- ✅ Category Filtering
+- ✅ Product Sorting (Price & Rating)
+
+### 🚀 Features
+
+- Modern Responsive User Interface
+- Interactive Navigation
+- Local Storage Implementation
+- Dynamic Product Cards
+- Smooth Scrolling
+- Mobile-Friendly Layout
+- Professional Portfolio Design
+
+### 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Local Storage API
+
 
