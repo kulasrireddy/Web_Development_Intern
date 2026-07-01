@@ -228,4 +228,155 @@ This project includes the following requirements:
 - JavaScript (ES6)
 - Local Storage API
 
+# 🌐 Personal Portfolio Website
 
+> **Task 5 - Final Project (Capstone Project)**
+>
+> **Web Development Internship**
+>
+> **ApexPlanet Software Pvt. Ltd.**
+
+---
+
+## 📖 About the Project
+
+This project is my **Final Capstone Project** developed during my **Web Development Internship at ApexPlanet Software Pvt. Ltd.**
+
+The objective of this project was to build a **complete, responsive, and optimized web application** by integrating all frontend development concepts learned throughout the internship.
+
+The project is a modern **Personal Portfolio Website** that highlights my education, technical skills, internships, projects, certifications, coding profiles, and contact information.
+
+---
+
+## 🎯 Project Objectives
+
+- Build a complete web application using HTML, CSS, and JavaScript.
+- Create a professional and responsive personal portfolio.
+- Optimize the website for better performance.
+- Ensure cross-browser compatibility.
+- Provide a seamless user experience across all devices.
+
+---
+
+# ✨ Features
+
+- Responsive Navigation Bar
+- Modern Hero Section
+- About Me Section
+- Education Timeline
+- Technical Skills
+- Internship Experience
+- Projects Showcase
+- Certifications
+- Contact Form
+- Social Media Links
+- GitHub & Coding Profiles
+- Dark/Light Theme
+- Smooth Scrolling
+- Scroll to Top Button
+- Animated UI
+- Mobile Responsive Design
+
+---
+
+# 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Font Awesome
+- Google Fonts
+
+---
+
+# ⚡ Performance Optimization
+
+The following optimizations were implemented:
+
+- Organized CSS and JavaScript files
+- Optimized images
+- Lazy Loading for images
+- Reduced HTTP Requests
+- Optimized animations
+- Smooth scrolling
+- Efficient DOM manipulation
+- Faster page loading
+
+---
+
+# 📱 Responsive Design
+
+The portfolio is fully responsive and works across:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Phones
+
+---
+
+# 🌍 Cross-Browser Compatibility
+
+Successfully tested on:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
+
+---
+
+# 📂 Project Structure
+
+```
+Personal-Portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+```
+
+# 📸 Website Sections
+
+- Home
+- About
+- Education
+- Skills
+- Internships
+- Projects
+- Certifications
+- Contact
+
+---
+
+# 🚀 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- UI/UX Design
+- Performance Optimization
+- Cross-Browser Testing
+- DOM Manipulation
+- Frontend Best Practices
+
+---
+
+# 💼 Internship Information
+
+**Organization:** ApexPlanet Software Pvt. Ltd.
+
+**Internship Domain:** Web Development
+
+**Task:** Task 5 – Final Project & Optimization
+
+**Project:** Personal Portfolio Website
+
+---
+
+# 👩‍💻 Author
+
+## Kulasri Durga Deepika Bora
